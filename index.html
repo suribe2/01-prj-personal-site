@@ -1,11 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Personal Site</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Sebastian Uribe | Computer Science Student</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* -------- Reset / Base Styles -------- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        /* -------- Layout -------- */
+        header {
+            background: #111827;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 1rem;
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 0.5rem;
+        }
+
+        /* -------- Bio -------- */
+        .bio p {
+            max-width: 700px;
+        }
+
+        /* -------- Skills -------- */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+
+        .skill {
+            background: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            border: 1px solid #e5e7eb;
+            font-size: 0.9rem;
+        }
+
+        /* -------- Projects -------- */
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .project-card {
+            background: white;
+            padding: 1.25rem;
+            border-radius: 8px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .project-card h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .project-card p {
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+        }
+
+        /* -------- Footer -------- */
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            font-size: 0.85rem;
+            color: #6b7280;
+        }
+    </style>
 </head>
 <body>
-  <!-- Add your HTML content here -->
+
+    <!-- Header -->
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Development Student</p>
+    </header>
+
+    <!-- Bio Section -->
+    <section class="bio">
+        <h2>About Me</h2>
+        <p>
+            I am a computer science student currently enrolled in a web development course. I have a passion for learning new technologies and building projects that solve real-world problems. My goal is to become a proficient web developer and contribute to open-source projects in the future.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section>
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript (Learning)</div>
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">Java (Backend Basics)</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section>
+        <h2>Course Projects</h2>
+        <div class="projects">
+
+            <div class="project-card">
+                <h3>Project 1: Personal Website</h3>
+                <p>
+                    A simple portfolio website built with HTML and CSS to practice layout and styling.
+                </p>
+                <a href="#">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Project 2: To-Do App</h3>
+                <p>
+                    A basic task manager using JavaScript to learn DOM manipulation.
+                </p>
+                <a href="#">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Future Project</h3>
+                <p>
+                    Placeholder for upcoming course projects.
+                </p>
+                <a href="#">Coming Soon</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2026 Your Name. Built while learning web development.
+    </footer>
+
 </body>
 </html>
+
