@@ -16,21 +16,29 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
             line-height: 1.6;
-            background-color: #f5f7fa;
-            color: #333;
+            background-color: #000814;
+            color: #f5f7fa;
         }
 
         a {
-            color: #2563eb;
+            color: #fbbf24;
             text-decoration: none;
         }
 
         /* -------- Layout -------- */
         header {
-            background: #111827;
+            background: #000814;
             color: white;
             padding: 2rem 1rem;
             text-align: center;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 1rem auto 0;
         }
 
         section {
@@ -41,7 +49,7 @@
 
         h2 {
             margin-bottom: 1rem;
-            border-bottom: 2px solid #e5e7eb;
+            border-bottom: 2px solid #fbbf24;
             padding-bottom: 0.5rem;
         }
 
@@ -58,10 +66,10 @@
         }
 
         .skill {
-            background: white;
+            background: #333;
             padding: 0.5rem 1rem;
             border-radius: 6px;
-            border: 1px solid #e5e7eb;
+            border: 1px solid #fbbf24;
             font-size: 0.9rem;
         }
 
@@ -73,10 +81,10 @@
         }
 
         .project-card {
-            background: white;
+            background: #333;
             padding: 1.25rem;
             border-radius: 8px;
-            border: 1px solid #e5e7eb;
+            border: 1px solid #fbbf24;
         }
 
         .project-card h3 {
@@ -93,7 +101,7 @@
             text-align: center;
             padding: 2rem 1rem;
             font-size: 0.85rem;
-            color: #6b7280;
+            color: #fbbf24;
         }
     </style>
 </head>
@@ -101,15 +109,16 @@
 
     <!-- Header -->
     <header>
-        <h1>Your Name</h1>
-        <p>Web Development Student</p>
+        <h1>Sebastian Uribe</h1>
+        <p>Computer Science Student</p>
+        <img src="img/image.png" alt="Profile Picture" class="profile-pic">
     </header>
 
     <!-- Bio Section -->
     <section class="bio">
         <h2>About Me</h2>
         <p>
-            I am a computer science student currently enrolled in a web development course. I have a passion for learning new technologies and building projects that solve real-world problems. My goal is to become a proficient web developer and contribute to open-source projects in the future.
+            I am a computer science student currently enrolled in a web development course. I have a passion for learning new technologies and building projects that solve real-world problems. My goal is to become proficient in some aspects of web development and contribute to open-source projects in the future.
         </p>
     </section>
 
@@ -121,7 +130,9 @@
             <div class="skill">CSS</div>
             <div class="skill">JavaScript (Learning)</div>
             <div class="skill">Git & GitHub</div>
-            <div class="skill">Java (Backend Basics)</div>
+            <div class="skill">Java</div>
+            <div class="skill">Python</div>
+            <div class="skill">SQL</div>
         </div>
     </section>
 
@@ -159,7 +170,7 @@
 
     <!-- Footer -->
     <footer>
-        © 2026 Your Name. Built while learning web development.
+        © 2026 Sebastian Uribe. Built while learning web development.
     </footer>
 
 </body>
